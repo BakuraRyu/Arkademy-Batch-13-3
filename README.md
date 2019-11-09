@@ -30,3 +30,5 @@ cara menjalankan soal 6A:
   - setelah itu masuk ke database tersebut dan klik menu SQL
   - dan paste-kan Query yang ada pada file query.txt
   - lalu klik go, maka tampilannya akan sesuai dengan soal
+
+pada folde 6B buka file index.html untuk menjalankan
