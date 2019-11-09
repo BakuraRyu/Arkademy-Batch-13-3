@@ -39,3 +39,6 @@ cara menjalankan soal 6A:
 
 ->pada folder 6C copy semua pada htdocs di xampp kemudian import database dari folder 6A lalu jalankan fi localhost/phpmyadmin dan buka file index.php pada browser
 
+![Screenshot_41](https://user-images.githubusercontent.com/57070723/68530456-d2551800-033a-11ea-9198-dbedc4391945.png)
+![Screenshot_42](https://user-images.githubusercontent.com/57070723/68530457-d2edae80-033a-11ea-8095-d997e95f7547.png)
+![Screenshot_43](https://user-images.githubusercontent.com/57070723/68530458-d2edae80-033a-11ea-8855-aca5bf9ff19e.png)
