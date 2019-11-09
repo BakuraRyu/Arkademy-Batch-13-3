@@ -17,8 +17,8 @@
   
   
 Soal 6A
-  pada folder 6A terdapat file arkademy_batch_13_3.sql dan query.txt
-  cara menjalankan soal 6A:
+pada folder 6A terdapat file arkademy_batch_13_3.sql dan query.txt
+cara menjalankan soal 6A:
 
   - buka aplikasi XAMPP
   - buka brwoser lalu ketik localhost/phpmyadmin
