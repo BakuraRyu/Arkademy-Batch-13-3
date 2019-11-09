@@ -1,0 +1,24 @@
+ /* custom-css */
+
+ .btn-primary.custom-btn {
+	background-color: #ff8fb2;
+	border-color: #ff8fb2;
+}
+
+ .btn-primary.custom-btn:hover {
+    color: #ffffff !important;
+    background-color: #fb3c78 !important;
+  }
+  
+  .btn-primary.custom-btn:focus {
+    color: #ffbcd1 !important;
+    background-color: #ff558a !important;
+  }
+
+  th {
+    background-color: #cecece;
+    color: white;
+} 
+
+
+ 
