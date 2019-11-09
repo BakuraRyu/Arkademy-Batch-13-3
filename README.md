@@ -16,8 +16,8 @@
   - file dibuat dalam bentuk javascript dan bisa dijalankan di https://es6console.com
   
   
-Soal 6 : 
-pada folder 6A terdapat file arkademy_batch_13_3.sql dan query.txt
+# Soal 6 : 
+-> pada folder 6A terdapat file arkademy_batch_13_3.sql dan query.txt
 cara menjalankan soal 6A:
 
   - buka aplikasi XAMPP
@@ -31,4 +31,8 @@ cara menjalankan soal 6A:
   - dan paste-kan Query yang ada pada file query.txt
   - lalu klik go, maka tampilannya akan sesuai dengan soal
 
-pada folde 6B buka file index.html untuk menjalankan
+-> pada folde 6B buka file index.html untuk menjalankan
+![Screenshot_37](https://user-images.githubusercontent.com/57070723/68529923-25789c00-0336-11ea-9042-4cb18b18388e.png)
+![Screenshot_38](https://user-images.githubusercontent.com/57070723/68529924-25789c00-0336-11ea-9002-b73dd00f530c.png)
+![Screenshot_39](https://user-images.githubusercontent.com/57070723/68529925-26113280-0336-11ea-87f2-6fafe2fa1d8c.png)
+![Screenshot_40](https://user-images.githubusercontent.com/57070723/68529926-26113280-0336-11ea-9214-4d7b37445584.png)
