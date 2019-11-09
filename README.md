@@ -32,10 +32,6 @@ cara menjalankan soal 6A:
   - lalu klik go, maka tampilannya akan sesuai dengan soal
 
 -> pada folde 6B buka file index.html untuk menjalankan
-![Screenshot_37](https://user-images.githubusercontent.com/57070723/68529923-25789c00-0336-11ea-9042-4cb18b18388e.png)
-![Screenshot_38](https://user-images.githubusercontent.com/57070723/68529924-25789c00-0336-11ea-9002-b73dd00f530c.png)
-![Screenshot_39](https://user-images.githubusercontent.com/57070723/68529925-26113280-0336-11ea-87f2-6fafe2fa1d8c.png)
-![Screenshot_40](https://user-images.githubusercontent.com/57070723/68529926-26113280-0336-11ea-9214-4d7b37445584.png)
 
 ->pada folder 6C copy semua pada htdocs di xampp kemudian import database dari folder 6A lalu jalankan fi localhost/phpmyadmin dan buka file index.php pada browser
 
