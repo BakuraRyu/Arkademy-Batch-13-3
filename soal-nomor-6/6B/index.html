@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css">
+    <!-- self css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css">
+</head>
+<body>
+
+<!-- menu -->
+<nav class="menu navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="assets/img/logo_arkademy.png" alt="logo" width="150">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link logo-text" href="#"><span style="color:#FF8FB2;">ARKADEMY</span> COFFEE SHOP <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+        <!-- button add -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="col-md text-right">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn-add" data-toggle="modal" data-target="#modalAdd">ADD</button>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- container body -->
+<div class="container">
+    <!-- tabel -->
+    <div class="row mt-5 mb-5">
+        <div class="col-md">
+            <table class="table">
+                <tr class="tb-head">
+                    <th>No</th>
+                    <th>Cashier</th>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+                <tr class="tb-body">
+                    <td><b>1</b></td>
+                    <td>Pevita Pearce</td>
+                    <td>Latte</td>
+                    <td>Drink</td>
+                    <td>Rp. 10.000</td>
+                    <td>
+                        <a class="action" href="#">
+                            <button type="button" class="btn-edit-delete" data-toggle="modal" data-target="#modalEdit">
+                                <span style="color:#ACE087;">Edit</span>
+                            </button>
+                        </a>
+                        |
+                        <a class="action" href="#">
+                            <button type="button" class="btn-edit-delete" data-toggle="modal" data-target="#modalDelete">
+                                <span style="color:rgb(245, 112, 112);">Delete</span>
+                            </button>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="tb-body">
+                    <td><b>2</b></td>
+                    <td>Raisa Adriana</td>
+                    <td>Cake</td>
+                    <td>Food</td>
+                    <td>Rp. 15.000</td>
+                    <td>
+                        <a class="action" href="#">
+                            <button type="button" class="btn-edit-delete" data-toggle="modal" data-target="#modalEdit">
+                                <span style="color:#ACE087;">Edit</span>
+                            </button>
+                        </a>
+                        |
+                        <a class="action" href="#">
+                            <button type="button" class="btn-edit-delete" data-toggle="modal" data-target="#modalDelete">
+                                <span style="color:rgb(245, 112, 112);">Delete</span>
+                            </button>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="tb-body">
+                    <td><b>3</b></td>
+                    <td>Raisa Adriana</td>
+                    <td>Fried Rice</td>
+                    <td>Food</td>
+                    <td>Rp. 30.000</td>
+                    <td>
+                        <a class="action" href="#">
+                            <button type="button" class="btn-edit-delete" data-toggle="modal" data-target="#modalEdit">
+                                <span style="color:#ACE087;">Edit</span>
+                            </button>
+                        </a>
+                        |
+                        <a class="action" href="#">
+                            <button type="button" class="btn-edit-delete" data-toggle="modal" data-target="#modalDelete">
+                                <span style="color:rgb(245, 112, 112);">Delete</span>
+                            </button>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="tb-body">
+                    <td><b>4</b></td>
+                    <td>Pevita Pearce</td>
+                    <td>Gudeg</td>
+                    <td>Food</td>
+                    <td>Rp. 35.000</td>
+                    <td>
+                        <a class="action" href="#">
+                            <button type="button" class="btn-edit-delete" data-toggle="modal" data-target="#modalEdit">
+                                <span style="color:#ACE087;">Edit</span>
+                            </button>
+                        </a>
+                        |
+                        <a class="action" href="#">
+                            <button type="button" class="btn-edit-delete" data-toggle="modal" data-target="#modalDelete">
+                                <span style="color:rgb(245, 112, 112);">Delete</span>
+                            </button>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="tb-body">
+                    <td><b>5</b></td>
+                    <td>Joko Purwadhi</td>
+                    <td>Ice Tea</td>
+                    <td>Drink</td>
+                    <td>Rp. 55.000</td>
+                    <td>
+                        <a class="action" href="#">
+                            <button type="button" class="btn-edit-delete" data-toggle="modal" data-target="#modalEdit">
+                                <span style="color:#ACE087;">Edit</span>
+                            </button>
+                        </a>
+                        |
+                        <a class="action" href="#">
+                            <button type="button" class="btn-edit-delete" data-toggle="modal" data-target="#modalDelete">
+                                <span style="color:rgb(245, 112, 112);">Delete</span>
+                            </button>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="tb-body">
+                    <td><b>6</b></td>
+                    <td>M. Bambang Sumantri</td>
+                    <td>Donat</td>
+                    <td>Food</td>
+                    <td>Rp. 15.000</td>
+                    <td>
+                        <a class="action" href="#">
+                            <button type="button" class="btn-edit-delete" data-toggle="modal" data-target="#modalEdit">
+                                <span style="color:#ACE087;">Edit</span>
+                            </button>
+                        </a>
+                        |
+                        <a class="action" href="#">
+                            <button type="button" class="btn-edit-delete" data-toggle="modal" data-target="#modalDelete">
+                                <span style="color:rgb(245, 112, 112);">Delete</span>
+                            </button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- end container -->
+
+<!-- modal -->
+
+<!-- Modal add -->
+<div class="modal fade" id="modalAdd" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content modal-radius">
+    <div class="modal-header no-border">
+        <!-- <div class="row"> -->
+            <div class="col-md pl-4 pt-3">
+                <h5 class="modal-title" id="exampleModalCenterTitle">ADD DATA</h5>
+            </div>
+            <div class="col-md pr-2">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="assets/img/close_button.png" alt="close" width="25">
+                </button>
+            </div>
+        <!-- </div> -->
+    </div>
+    <div class="modal-body modal-body-padding">
+        <!-- input form -->
+        <form action="" method="post">
+            <div class="form-group">
+                <div class="select-side" id="click-me">
+                </div>
+                <select name="work" class="form-control form-control-lg placeholder appearance-none no-border border-bot" id="sel1">
+                    <option value="Raisa Adriana">Raisa Adriana</option>
+                    <option value="Raisa Adriana">Pevita Pearce</option>
+                    <option value="Raisa Adriana">M. Bambang Sumantri</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <div class="select-side"></div>
+                <select name="salary" class="form-control form-control-lg placeholder appearance-none no-border border-bot" id="sel2">
+                    <option value="ice tea">ice tea</option>
+                    <option value="ice tea">donat</option>
+                    <option value="ice tea">latte</option>
+                </select>
+            </div>
+            <div class="form-group">
+                    <input name="name" class="form-control form-control-lg placeholder no-border border-bot" type="text" placeholder="Drink .." value="Drink">
+            </div>
+            <div class="form-group">
+                <input name="name" class="form-control form-control-lg placeholder no-border border-bot" type="text" placeholder="Price .." value="Rp. 10.000">
+            </div>
+    </div>
+    <div class="modal-footer no-border pr-5 pb-4">
+        <button type="submit" class="btn-add">ADD</button>
+        </form>
+    </div>
+    </div>
+</div>
+</div>
+<!-- end modal add -->
+
+<!-- modal delete -->
+<div class="modal fade" tabindex="-1" role="dialog" id="modalDelete">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content modal-radius">
+            <div class="modal-header no-border">
+                <div class="col-md pr-2">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="assets/img/close_button.png" alt="close" width="25">
+                    </button>
+                </div>
+            </div>
+            <div class="modal-body text-center">
+                <p class="placeholder mb-4">Data Raisa Adriani ID <span style="color:#FF8FB2;">#1</span></p>
+                <img src="assets/img/checked.png" alt="checked" width="110">
+                <p class="placeholder mt-4 mb-5">berhasil dihapus</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end modal delete -->
+
+<!-- Modal edit -->
+<div class="modal fade" id="modalEdit" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content modal-radius">
+    <div class="modal-header no-border">
+        <!-- <div class="row"> -->
+            <div class="col-md pl-4 pt-3">
+                <h5 class="modal-title" id="exampleModalCenterTitle">EDIT DATA</h5>
+            </div>
+            <div class="col-md pr-2">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="assets/img/close_button.png" alt="close" width="25">
+                </button>
+            </div>
+        <!-- </div> -->
+    </div>
+    <div class="modal-body modal-body-padding">
+        <!-- input form -->
+        <form action="" method="post">
+        <div class="form-group">
+            <div class="select-side" id="click-me">
+            </div>
+            <select name="work" class="form-control form-control-lg placeholder appearance-none no-border border-bot" id="sel1">
+                <option value="Raisa Adriana">Raisa Adriana</option>
+                <option value="Raisa Adriana">Pevita Pearce</option>
+                <option value="Raisa Adriana">M. Bambang Sumantri</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <div class="select-side"></div>
+            <select name="salary" class="form-control form-control-lg placeholder appearance-none no-border border-bot" id="sel2">
+                <option value="ice tea">ice tea</option>
+                <option value="ice tea">donat</option>
+                <option value="ice tea">latte</option>
+            </select>
+        </div>
+        <div class="form-group">
+                <input name="name" class="form-control form-control-lg placeholder no-border border-bot" type="text" placeholder="Name .."value="Drink">
+        </div>
+        <div class="form-group">
+            <input name="name" class="form-control form-control-lg placeholder no-border border-bot" type="text" placeholder="Product .." value="Rp. 10.000">
+        </div>
+    </div>
+    <div class="modal-footer no-border pr-5 pb-4">
+        <button type="submit" class="btn-add">EDIT</button>
+        </form>
+    </div>
+    </div>
+</div>
+</div>
+<!-- end modal edit -->
+
+<script src="assets/js/jquery-3.4.1/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
